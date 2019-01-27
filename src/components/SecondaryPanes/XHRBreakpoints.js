@@ -194,8 +194,7 @@ class XHRBreakpoints extends Component<Props, State> {
         className="xhr-container"
         key={path}
         title={path}
-        onDoubleClick={(items, options) => this.editExpression(index)}
-        onClick={() => this.handleCheckbox(index)}
+        onDoubleClick={(items, options) => this.editExpression(index)}        
       >
         <input
           type="checkbox"
